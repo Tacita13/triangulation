@@ -36,12 +36,13 @@ def remove_duplicates(antichains_list):
   for antichain in antichains_list:
     if antichain not in new_list:
       new_list.append(antichain)
+  # Alternately print the antichains list
+  # print(new_list)
   print(len(new_list))
 
 l=[1,2,3,4,5] #10
 l=[1,2,3,4,5,6] #180
 l=[1,2,3,4,5,6,7] #1260
 l=[1,2,3,4,5,6,7,8] #10080
-l=[1,2,3,4,5,6,7,8,9]
 
 graphs(l)
